@@ -15,6 +15,7 @@
       * {
         margin: 0px;
         padding: 0px;
+        box-sizing: border-box;
       }
       .body-header-text {
         font-size: 1rem;
@@ -40,10 +41,12 @@
         height: 2rem;
       }
       main {
+        height: calc(100svh - 152px);
+        overflow-y: auto;
         padding: 0 3rem 1rem;
       }
       h3 {
-        padding: 1rem 0;
+        padding: 1rem 0 1rem 3rem;
         font-size: 1rem;
       }
       h1 {
@@ -52,7 +55,10 @@
       }
       footer {
         width: 100%;
-        text-align: center;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: #000;
         font-weight: 400;
         font-size: 12px;
@@ -81,9 +87,9 @@
         <circle cx="964" cy="590" r="260" fill="#FF0000" />
       </svg>
     </header>
+    <h3>Privacy Policy for Defender On Duty</h3>
+    <hr />
     <main>
-      <h3>Privacy Policy for Defender On Duty</h3>
-      <hr />
       <h1>Privacy Policy</h1>
       <div class="body-header-text">Last Updated: 18th September 2024</div>
       <div class="body-header-text">1. Introduction</div>
