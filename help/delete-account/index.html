@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg%20width%3D%22618%22%20height%3D%22618%22%20viewBox%3D%220%200%20618%20618%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%22618%22%20height%3D%22618%22%20fill%3D%22black%22%2F%3E%3Cpath%20d%3D%22M147.338%20419H111.01L111.303%20396.002H147.338C160.131%20396.002%20170.531%20393.561%20178.539%20388.678C186.547%20383.697%20192.455%20376.373%20196.264%20366.705C200.072%20356.939%20201.977%20344.879%20201.977%20330.523V294.049C201.977%20282.721%20200.902%20272.955%20198.754%20264.752C196.605%20256.549%20193.383%20249.811%20189.086%20244.537C184.789%20239.264%20179.369%20235.357%20172.826%20232.818C166.283%20230.182%20158.617%20228.863%20149.828%20228.863H110.277V205.719H149.828C161.84%20205.719%20172.68%20207.623%20182.348%20211.432C192.016%20215.143%20200.316%20220.758%20207.25%20228.277C214.184%20235.699%20219.457%20244.928%20223.07%20255.963C226.781%20266.998%20228.637%20279.791%20228.637%20294.342V330.523C228.637%20345.074%20226.781%20357.867%20223.07%20368.902C219.457%20379.938%20214.135%20389.166%20207.104%20396.588C200.072%20404.01%20191.527%20409.625%20181.469%20413.434C171.508%20417.145%20160.131%20419%20147.338%20419ZM125.951%20205.719V419H98.998V205.719H125.951Z%22%20fill%3D%22%231EC004%22%2F%3E%3Cpath%20d%3D%22M471.162%20206H507.49L507.197%20228.998H471.162C458.369%20228.998%20447.969%20231.439%20439.961%20236.322C431.953%20241.303%20426.045%20248.627%20422.236%20258.295C418.428%20268.061%20416.523%20280.121%20416.523%20294.477V330.951C416.523%20342.279%20417.598%20352.045%20419.746%20360.248C421.895%20368.451%20425.117%20375.189%20429.414%20380.463C433.711%20385.736%20439.131%20389.643%20445.674%20392.182C452.217%20394.818%20459.883%20396.137%20468.672%20396.137H508.223V419.281H468.672C456.66%20419.281%20445.82%20417.377%20436.152%20413.568C426.484%20409.857%20418.184%20404.242%20411.25%20396.723C404.316%20389.301%20399.043%20380.072%20395.43%20369.037C391.719%20358.002%20389.863%20345.209%20389.863%20330.658V294.477C389.863%20279.926%20391.719%20267.133%20395.43%20256.098C399.043%20245.062%20404.365%20235.834%20411.396%20228.412C418.428%20220.99%20426.973%20215.375%20437.031%20211.566C446.992%20207.855%20458.369%20206%20471.162%20206ZM492.549%20419.281V206H519.502V419.281H492.549Z%22%20fill%3D%22%231EC004%22%2F%3E%3Ccircle%20cx%3D%22309%22%20cy%3D%22309%22%20r%3D%2259%22%20fill%3D%22%23FF0000%22%2F%3E%3C%2Fsvg%3E"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Condensed"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .body-header-text {
+        font-size: 1rem;
+      }
+      .body-content-text {
+        font-size: 12px;
+      }
+      body {
+        font-family: "Roboto Condensed";
+        letter-spacing: 1px;
+        color: #000;
+      }
+      header {
+        width: 100%;
+        height: 3rem;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      header svg {
+        width: 3rem;
+        height: 2rem;
+      }
+      main {
+        /* height: calc(100svh - 152px); */
+        overflow-y: auto;
+        padding: 0 3rem 1rem;
+      }
+      h3 {
+        padding: 1rem 0 1rem 3rem;
+        font-size: 1rem;
+      }
+      h1 {
+        padding: 1rem 0;
+        font-size: 1.5rem;
+      }
+      ul {
+        margin-left: 1rem;
+      }
+      footer {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        font-weight: 400;
+        font-size: 12px;
+        padding: 0.5rem 0;
+      }
+    </style>
     <title>Delete Account | Defender On Duty</title>
-</head>
-<body>
-    Delete Account page
-</body>
+  </head>
+  <body>
+    <header>
+      <svg
+        width="1927"
+        height="1145"
+        viewBox="0 0 1927 1145"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M237.793 928H116.699L117.676 851.34H237.793C280.436 851.34 315.104 843.202 341.797 826.926C368.49 810.324 388.184 785.91 400.879 753.684C413.574 721.132 419.922 680.93 419.922 633.078V511.496C419.922 473.736 416.341 441.184 409.18 413.84C402.018 386.496 391.276 364.035 376.953 346.457C362.63 328.879 344.564 315.858 322.754 307.395C300.944 298.605 275.391 294.211 246.094 294.211H114.258V217.062H246.094C286.133 217.062 322.266 223.41 354.492 236.105C386.719 248.475 414.388 267.193 437.5 292.258C460.612 316.997 478.19 347.759 490.234 384.543C502.604 421.327 508.789 463.97 508.789 512.473V633.078C508.789 681.581 502.604 724.224 490.234 761.008C478.19 797.792 460.449 828.553 437.012 853.293C413.574 878.033 385.091 896.75 351.562 909.445C318.359 921.815 280.436 928 237.793 928ZM166.504 217.062V928H76.6602V217.062H166.504Z"
+          fill="#1EC004"
+        />
+        <path
+          d="M1689.21 217H1810.3L1809.32 293.66H1689.21C1646.56 293.66 1611.9 301.798 1585.2 318.074C1558.51 334.676 1538.82 359.09 1526.12 391.316C1513.43 423.868 1507.08 464.07 1507.08 511.922V633.504C1507.08 671.264 1510.66 703.816 1517.82 731.16C1524.98 758.504 1535.72 780.965 1550.05 798.543C1564.37 816.121 1582.44 829.142 1604.25 837.605C1626.06 846.395 1651.61 850.789 1680.91 850.789H1812.74V927.938H1680.91C1640.87 927.938 1604.73 921.59 1572.51 908.895C1540.28 896.525 1512.61 877.807 1489.5 852.742C1466.39 828.003 1448.81 797.241 1436.77 760.457C1424.4 723.673 1418.21 681.03 1418.21 632.527V511.922C1418.21 463.419 1424.4 420.776 1436.77 383.992C1448.81 347.208 1466.55 316.447 1489.99 291.707C1513.43 266.967 1541.91 248.25 1575.44 235.555C1608.64 223.185 1646.56 217 1689.21 217ZM1760.5 927.938V217H1850.34V927.938H1760.5Z"
+          fill="#1EC004"
+        />
+        <circle cx="964" cy="590" r="260" fill="#FF0000" />
+      </svg>
+    </header>
+    <h3>How to delete your account in Defender On Duty</h3>
+    <hr />
+    <main>
+      <h1>Delete Account Process</h1>
+      <div class="body-header-text">Last Updated: September 21, 2024</div>
+      <div class="body-header-text">1. Introduction</div>
+      <div class="body-content-text">
+        At Defender On Duty (DOD), Your privacy is important to us. This Privacy
+        Policy describes Our policies and procedures on the collection, use and
+        disclosure of Your information when You use the Service and tells You
+        about Your privacy rights and how the law protects You. We use Your
+        Personal data to provide and improve the Service. By using the Service,
+        You agree to the collection and use of information in accordance with
+        this Privacy Policy.
+      </div>
+
+      <div class="body-content-text">
+        If you have any questions about Privacy Policy, please contact us at
+        contact@defenderonduty.com
+      </div>
+    </main>
+    <hr />
+    <footer>© Defender On Duty <br />All Rights Reserved.</footer>
+  </body>
 </html>
